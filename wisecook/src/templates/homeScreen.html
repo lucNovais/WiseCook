@@ -1,0 +1,23 @@
+{% load static %}
+<h1>Bem vindo ao wiseCook</h1>
+<link rel="stylesheet" href="{% static 'styles.css' %}" />
+<img src="{% static 'wiseLogo.png' %}" alt="Logo" />
+
+<p>Economize TEMPO e DINHEIRO de forma SÁBIA!</p>
+
+<h1>(1) - REGISTRE-SE</h1>
+
+<h1>(2) - CADASTRE SEUS ALIMENTOS</h1>
+
+<h1>(3) - ECONTRE AS MELHORES RECEITAS</h1>
+
+<link rel="stylesheet" href="{% static 'styles.css' %}" />
+<div class="btn-group">
+  <form action="./register" method="GET">
+    <button>Registre-se</button>
+  </form>
+
+  <form action="./accounts/login" method="GET">
+    <button>Login</button>
+  </form>
+</div>

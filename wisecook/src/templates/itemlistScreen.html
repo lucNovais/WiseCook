@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1>LISTA DE ALIMENTOS</h1>
+<p>Olá {{ request.user }}, estes são os alimentos em seu estoque!</p>
+<form action="/insert" method="GET">
+  <button>+</button>
+</form>
+
+<div>
+  <table border="1" class="table">
+    <thead>
+      <tr>
+        <th>Alimento</th>
+        <th>Quantidade</th>
+        <th>Validade</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      {% for alimento in possui %}
+      <tr>
+        <td>{{ alimento.nomealimento_id }}</td>
+        <td>{{ alimento.quantidade }}</td>
+        <td>{{ alimento.datavalidade }}</td>
+        <td><a href="{% url 'delete' alimento.id %}">Delete</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{%endblock content%}

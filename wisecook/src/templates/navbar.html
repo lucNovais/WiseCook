@@ -1,0 +1,29 @@
+{% load static %}
+
+<nav>
+  <form action="{% url 'feed' %}" method="GET">
+    <button>
+      <img src="{% static 'wiseLogo.png' %}" alt="Logo" />
+    </button>
+  </form>
+
+  <link rel="stylesheet" href="{% static 'styles.css' %}" />
+
+  <div class="btn-group">
+    <form action="{% url 'list' %}" method="GET">
+      <button>LISTA DE ALIMENTOS</button>
+    </form>
+
+    <form action="/feed" method="GET">
+      <button>RECEITAS</button>
+    </form>
+
+    <form action="{% url 'profile' %}" method="GET">
+      <button>PERFIL</button>
+    </form>
+
+    <form action="{% url 'logout' %}" method="GET">
+      <button>LOGOUT</button>
+    </form>
+  </div>
+</nav>

@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1>MELHORES RECEITAS</h1>
+
+{% for item in recomendadas %}
+
+<form action="/recipes/{{item.nomereceita}}" method="GET">
+  <button>{{ item.nomereceita_id }} - {{ item.correspondencia }}</button>
+</form>
+
+{% endfor %} {%endblock content%}

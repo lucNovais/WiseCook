@@ -1,0 +1,29 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1>PERFIL</h1>
+
+<p>{{ request.user}}, este é o seu perfil!</p>
+
+<div>
+  <table border="1" class="table">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Restrições</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>{{ usuario.nome }}</td>
+        <td>{{ usuario.restricoes }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<form action="{% url 'editProfile' request.user.id %}" method="GET">
+  <button>EDITAR</button>
+</form>
+
+{%endblock content%}
