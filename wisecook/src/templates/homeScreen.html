@@ -1,23 +1,37 @@
 {% load static %}
-<h1>Bem vindo ao wiseCook</h1>
-<link rel="stylesheet" href="{% static 'styles.css' %}" />
-<img src="{% static 'wiseLogo.png' %}" alt="Logo" />
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <title>wiseCook: Economize tempo e dinheiro!</title>
+</head>
+<body>
+  <div class = "homeImage">
+    <img src="{% static 'img/wiseLogo.png' %}" alt="Logo" />
+  </div>
+  <div class="subtitle">Economize TEMPO e DINHEIRO de forma SÁBIA!</div>
+  
+  <div class = "rectangle1">Registre-se</div>
+  <div class="circle1">1</div>
 
-<p>Economize TEMPO e DINHEIRO de forma SÁBIA!</p>
+  <div class = "rectangle2">Cadastre seus alimentos</div>
+  <div class="circle2">2</div>
+  
+  <div class = "rectangle3">Encontre as melhores receitas</div>
+  <div class="circle3">3</div>
+  
+  <div class="btn-group-register">
+    <form action="./register" method="GET">
+      <button>Registre-se</button>
+    </form>
+  </div>
+  <div class="btn-group-login">
+    <form action="./accounts/login" method="GET">
+      <button>Login</button>
+    </form>
+  </div>
+</body>
+</html>
 
-<h1>(1) - REGISTRE-SE</h1>
 
-<h1>(2) - CADASTRE SEUS ALIMENTOS</h1>
-
-<h1>(3) - ECONTRE AS MELHORES RECEITAS</h1>
-
-<link rel="stylesheet" href="{% static 'styles.css' %}" />
-<div class="btn-group">
-  <form action="./register" method="GET">
-    <button>Registre-se</button>
-  </form>
-
-  <form action="./accounts/login" method="GET">
-    <button>Login</button>
-  </form>
-</div>

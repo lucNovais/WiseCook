@@ -1,12 +1,13 @@
 {% load static %}
 
 <nav>
-  <form action="{% url 'feed' %}" method="GET">
-    <button>
-      <img src="{% static 'wiseLogo.png' %}" alt="Logo" />
-    </button>
-  </form>
-
+  <div class="btn-navbar">
+    <form action="{% url 'feed' %}" method="GET">
+      <button>
+        <img src="{% static 'img/wiseLogo_small.png' %}" alt="Logo" />
+      </button>
+    </form>
+  </div>
   <link rel="stylesheet" href="{% static 'styles.css' %}" />
 
   <div class="btn-group">
