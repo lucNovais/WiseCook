@@ -19,10 +19,20 @@
   <div class="feedTitle">MELHORES RECEITAS</div>
   
   {% for item in recomendadas %}
-  <form action="/recipes/{{item.nomereceita}}" method="GET">
-    <div class="feedBack"><div class="feedButtonAlign"><button>{{ item.nomereceita_id }} - {{ item.correspondencia }}</button></div></div>
-    <div class="defaultImage"><img src="{% static 'img/defaultImg.png' %}" alt="Logo" /></div>
-  </form>
+    <div class="feedBack">
+      <form action="/recipes/{{item.nomereceita}}" method="GET">
+        <div class="feedButtonAlign">
+          <button>
+            <div class="feedButtonTitle">RECEITA:
+            </div> {{ item.nomereceita_id }} 
+            <br>
+            <div class="feedButtonTitle">CORRESPONDÊNCIA:</div> {{ item.correspondencia }}%
+          </button>
+        </div>
+        <div class="defaultImage"><img src="{% static 'img/defaultImg.png' %}" alt="Logo" /></div>
+      </form>
+    </div>
+    <div class="branco"></div>
   {% endfor %}
 </body>
 </html>

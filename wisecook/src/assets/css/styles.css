@@ -21,6 +21,29 @@ body {
 	height: 60px;
 }
 
+.btn-group-update button{
+	position: absolute;
+	left: 560px;
+	top: 470px;
+
+	background-color: #FF8A00; /* Green background */
+	border: none;
+	color: white; /* White text */
+	padding: 10px 24px; /* Some padding */
+	cursor: pointer; /* Pointer/hand icon */
+	float: left; /* Float the buttons side by side */
+
+	text-align: center;
+	font-size: 30px;
+	line-height: 26px;
+	width: 240px;
+	height: 60px;
+}
+
+.btn-group-update button:hover {
+	background-color: yellow;
+}
+
 .btn-group-login button{
 	position: absolute;
 	left: 735px;
@@ -38,6 +61,28 @@ body {
 	line-height: 26px;
 	width: 240px;
 	height: 60px;
+}
+
+.btn-group-login2 button{
+	position: absolute;
+	left: 565px;
+	top: 310px;
+
+	background-color: #FF8A00; /* Green background */
+	border: none;
+	color: white; /* White text */
+	padding: 10px 24px; /* Some padding */
+	cursor: pointer; /* Pointer/hand icon */
+	float: left; /* Float the buttons side by side */
+
+	text-align: center;
+	font-size: 30px;
+	line-height: 26px;
+	width: 240px;
+	height: 60px;
+}
+.btn-group-login2 button:hover {
+	background-color: yellow;
 }
 
 .btn-logo button {
@@ -79,6 +124,23 @@ body {
 
 	width: 580px;
 	height: 300px;
+
+	background: #FFDAA2;
+}
+
+.alignInsertItem {
+	position: absolute;
+	top: 280px;
+	left: 30%;
+	font-size: 22px;
+	line-height: 26px;
+
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+	width: 560px;
+	height: 420px;
 
 	background: #FFDAA2;
 }
@@ -158,6 +220,10 @@ body {
 	height: 143px;
 	left: 360px;
 	top: 1px;
+}
+
+.containerr {
+	padding: 100px 540px;
 }
 
 .circle1 {
@@ -348,27 +414,220 @@ body {
 	background: #FFDAA2;
 }
 
+
 .profileText {
 	position: absolute;
-	width: 200px;
-	height: 60px;
-	left: 43%;
-	top: 26%;
+	width: 460px;
+	height: 70px;
+	left: 34%;
+	top: 170px;
+
+	text-align: center;
+	font-size: 40px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
 
 	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
 	font-size: 40px;
-	font-style: bold;
-	text-align: center;
+	line-height: 26px;
 
 	color: black;
-	background-color: #FFDAA2;
+	background: #FFDAA2
 }
+
+.itemListText {
+	position: absolute;
+	width: 460px;
+	height: 70px;
+	left: 34%;
+	top: 170px;
+
+	text-align: center;
+	font-size: 40px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 26px;
+
+	color: black;
+	background: #FFDAA2;
+}
+
+.insertItemText {
+	position: absolute;
+	width: 460px;
+	height: 70px;
+	left: 34%;
+	top: 170px;
+
+	text-align: center;
+	font-size: 40px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 26px;
+
+	color: black;
+	background: #FFDAA2;
+}
+
+.updateProfileText {
+	position: absolute;
+	width: 460px;
+	height: 70px;
+	left: 34%;
+	top: 170px;
+
+	text-align: center;
+	font-size: 40px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 26px;
+
+	color: black;
+	background: #FFDAA2;
+}
+
 
 .profileDesc {
 	position: absolute;
 	font-size: 26px;
-	top: 36%;
+	top: 38%;
 	left: 40%;
+}
+
+.itemListDesc {
+	position: absolute;
+	font-size: 26px;
+	top: 38.5%;
+	left: 30%;
+}
+
+.insertItem input{
+	position: absolute;
+	left: 163px;
+	top: 310px;
+
+	background-color: #FF8A00; /* Green background */
+	border: none;
+	color: white; /* White text */
+	padding: 10px 24px; /* Some padding */
+	cursor: pointer; /* Pointer/hand icon */
+	float: left; /* Float the buttons side by side */
+
+	text-align: center;
+	font-size: 30px;
+	line-height: 26px;
+	width: 240px;
+	height: 60px;
+}
+
+.insertItem input:hover {
+	background-color: yellow;
+}
+
+.insertItem input{
+	position: absolute;
+	left: 163px;
+	top: 310px;
+
+	background-color: #FF8A00; /* Green background */
+	border: none;
+	color: white; /* White text */
+	padding: 10px 24px; /* Some padding */
+	cursor: pointer; /* Pointer/hand icon */
+	float: left; /* Float the buttons side by side */
+
+	text-align: center;
+	font-size: 30px;
+	line-height: 26px;
+	width: 240px;
+	height: 60px;
+}
+
+.plusButton button{
+	position: relative;
+	background-color: #FF8A00;
+	text-align: center;
+	font-size: 30px;
+	line-height: 26px;
+	width: 50px;
+	height: 50px;
+
+	top: 10px;
+	left: 48%;
+	border: none;
+}
+
+.plusButton button:hover {
+	background-color: yellow;
+}
+
+.alimentoText {
+	position: relative;
+	width: 175px;
+	height: 26px;
+	top: -160px;
+	left: -15%;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 34px;
+
+	color: #000000;
+}
+
+.dataValidadeText {
+	position: relative;
+	width: 280px;
+	height: 26px;
+	top: -100px;
+	left: -15%;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 34px;
+
+	color: #000000;
+}
+
+.quantidadeText {
+	position: relative;
+	width: 280px;
+	height: 26px;
+	top: -40px;
+	left: -15%;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 34px;
+
+	color: #000000;
 }
 
 .userText {
@@ -502,6 +761,13 @@ body {
 	position: absolute;
 	font-size: 26px;
 	top: -35px;
+}
+
+.logoutReminder {
+	position: relative;
+	font-size: 32px;
+	top: 150px;
+	left: 32%;
 }
 
 .possuiContaReminder {

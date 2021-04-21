@@ -61,6 +61,7 @@ def feedscreen(request, *args, **kwargs):
                 GROUP BY nomereceita_id) W
                 ON T.nomereceita_id = W.nomereceita_id
             )
+        WHERE ( CAST(T.quantidadeUsuario AS FLOAT)/ CAST (W.quantidadeReceita AS FLOAT) )*100 > 25
         ORDER BY correspondencia DESC
     )
     """%(request.user.id, request.user.id)

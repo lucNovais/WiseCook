@@ -12,7 +12,6 @@ from django.contrib.auth.decorators import login_required
 def deleteItem(request, pk):
     alimento = Possui.objects.get(id=pk)
     alimento.delete()
-    messages.success(request, "Alimento deletado com sucesso!")
     return redirect('list')
 
 @login_required
@@ -25,7 +24,6 @@ def insertView(request, *args, **kwargs):
                 'quantidade': form.cleaned_data['quantidade']}
         stock = UserPossuiForm(data)
         stock.save()
-        messages.success(request, "Item adicionado com sucesso!")
         return redirect('list')
         
     context = {

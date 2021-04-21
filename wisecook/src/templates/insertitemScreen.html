@@ -1,10 +1,17 @@
 {% extends 'base.html' %} {% block content %}
 
-<h1>INSERIR ALIMENTO</h1>
+<div class="insertItemText"> INSERIR ALIMENTO</div>
 
+<div class="alignInsertItem">
 <form method="POST">
-  {% csrf_token %} {{form.as_p}}
-  <input type="submit" value="INSERIR" />
+  {% csrf_token %}
+
+  <div class="alimentoText">Alimento: <br> {{ form.nomealimento }}</div>
+  <div class="dataValidadeText">Data de Validade: <br> {{ form.datavalidade }}</div>
+  <div class="quantidadeText">Quantidade: <br> {{ form.quantidade }}</div>
+
+  <div class="insertItem"><input type="submit" value="INSERIR" /></div>
 </form>
+</div>
 
 {%endblock content%}

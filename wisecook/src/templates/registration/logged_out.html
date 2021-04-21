@@ -1,4 +1,8 @@
 {% extends "base.html" %} {% block content %}
-<p>Obrigado por utilizar nosso sistema!</p>
-<a href="{% url 'login'%}">LOGIN</a>
+<div class="logoutReminder">Obrigado por utilizar nosso sistema!</div>
+<div class="btn-group-login2">
+    <form action="{% url 'login' %}" method="GET">
+      <button>Login</button>
+    </form>
+  </div>
 {% endblock %}

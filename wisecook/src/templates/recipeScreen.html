@@ -1,7 +1,9 @@
 {% extends 'base.html' %} {% block content %}
 
-<h1>{{nome}}</h1>
+<div class="containerr">
+<div class=loginText>{{nome}}</div>
 
+<br><br><br>
 <h2>Ingredientes:</h2>
 {% for key, value in ingredientes %}
 <li>{{ key }}; Quantidade: {{value}} u.m.</li>
@@ -9,5 +11,6 @@
 
 <h2>Modo de preparo:</h2>
 <p>{{modopreparo}}</p>
+</div>
 
 {%endblock content%}

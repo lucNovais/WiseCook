@@ -1,7 +1,7 @@
 {% extends 'base.html' %} {% block content %}
 
-<div class="container" style="margin-top: 10px">
-  <h2>UPDATE VIEW</h2>
+<div class="container" style="margin-top: 190px">
+  <div class="updateProfileText">ATUALIZAR PERFIL</div>
   {% if messages %}
   <ul class="messages">
     {% for message in messages %}
@@ -34,8 +34,8 @@
         value="{{usuario.restricoes}}"
       />
     </div>
-    <button type="submit" class="btn btn-primary">Update</button>
   </form>
 </div>
+<div class="btn-group-update"><button type="submit" class="btn btn-primary">ATUALIZAR</button></div>
 
 {%endblock content%}

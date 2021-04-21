@@ -1,13 +1,11 @@
 {% extends 'base.html' %} {% block content %}
 
-<h1>LISTA DE ALIMENTOS</h1>
-<p>Olá {{ request.user }}, estes são os alimentos em seu estoque!</p>
-<form action="/insert" method="GET">
-  <button>+</button>
-</form>
+<div class="itemListText"> LISTA DE ALIMENTOS</div>
+<div class="itemListDesc"> Olá {{ request.user }}, estes são os alimentos em seu estoque!</div>
 
+<br><br><br><br><br><br><br><br><br><br>
 <div>
-  <table border="1" class="table">
+  <table border="1" class="table table-warning">
     <thead>
       <tr>
         <th>Alimento</th>
@@ -28,6 +26,12 @@
       {% endfor %}
     </tbody>
   </table>
+</div>
+
+<div class="plusButton">
+  <form action="/insert" method="GET">
+    <button>+</button>
+  </form>
 </div>
 
 {%endblock content%}

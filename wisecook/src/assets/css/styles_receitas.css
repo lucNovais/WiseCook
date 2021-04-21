@@ -23,7 +23,8 @@
 
 .defaultImage {
     position: relative;
-    left: 44%;
+	top: 17px;
+	left: 0%;
 }
 
 .btn-logo button {
@@ -42,11 +43,10 @@
 .feedBack {
     position: relative;
     background-color: #FFDAA2;
-    border: black;
-    border-style: solid;
-    width: 400px;
-    height: 300px;
-    left: 37%;
+    border: none;
+    width: 450px;
+    height: 350px;
+    left: 34.5%;
 	top: 210px;
 
     align-items: top;
@@ -54,12 +54,28 @@
 	display: flex;
 }
 
+.branco {
+	position: relative;
+	top: 10px;
+	width: 100%;
+	height: 20px;
+}
+
 .feedButtonAlign button {
     position: relative;
     background-color: #FF8A00;
-    border: black;
-    border-style: solid;
+    border: none;
     top: 10px;
-    width: 200px;
-    height: 40px;
+	left: 12.1%;
+    width: 300px;
+    height: 100px;
+}
+
+.feedButtonAlign button:hover {
+	background-color: yellow;
+}
+
+.feedButtonTitle {
+	font-weight: bold;
+	font-size: 16px;
 }
