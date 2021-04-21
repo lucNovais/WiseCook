@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 import os
+
+import django_heroku
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -145,5 +148,7 @@ STATICFILES_DIRS = (
 )
 
 LOGIN_REDIRECT_URL = '/list'
+
+django_heroku.settings(locals())
 
 # AUTH_USER_MODEL = 'usuarios.CustomUser'
