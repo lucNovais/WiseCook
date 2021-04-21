@@ -31,47 +31,9 @@ git fetch origin develop:develop
 ```bash
 git checkout develop
 ```
-
 <hr>
 
-## Arvore de arquivos
+## Desenvolvedores
 
-```
-├── Library
-│   └── Cidade
-├── MenuFase
-│   ├── Assets
-│   ├── Script
-│   └── Materiais, objetos, terrenos, texturas, cidade
-├── Package
-│   ├── Forca
-│   ├── LancamentoVertical
-│   ├── MassaEMola
-│   ├── PlanoInclinado
-│   ├── QuedaLivre
-├── Simulacoes3D
-│   ├── linux/Linux_v1.x86_64
-│   └── windows/windows_v1.exe
-├── .gitignore
-```
-
-<hr>
-
-## Modificando o projeto
-
-<h4>Criando conteúdo</h4>
-
-😍 Adicione novas cenas, scripts e objetos nas nossas simulações. Depois compartilhe o que você fez !
-
-```bash
-git push origin develop
-```
-
-## Contribuições
-
-Pull requests são bem vindos. Por favor, tenha certeza que o update esteja apropriados
-
-- [Jamisson Jader](https://www.instagram.com/jjader03/)
 - [Lucas Novais](https://www.instagram.com/l.novais_s/)
-
-## Referências legais
+- [Thiago Figueiredo](https://github.com/thiagosfig)
