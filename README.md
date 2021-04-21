@@ -7,11 +7,10 @@ Com isso, iremos aproveitar ao máximo o estoque de alimentos já existente, evi
 
 </p>
 
-## Simulações Encaminhadas
+## Pré requisitos
 
 <div style = "display : flex">
-    <img style = "width: 50%" src = "./imagens/forca01.png">
-    <img style = "width: 50%" src = "./imagens/massa01.png">
+    <li>Teste</li>
 </div>
 <br>
 <hr>
