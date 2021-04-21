@@ -1,4 +1,4 @@
-﻿# WiseCook - <font color = 'orange'>
+﻿# WiseCook <font color = 'orange'>
 
 <p align = "justify">
 O sistema Wise Cook é pensado para aquelas pessoas que precisam cozinhar em casa, principalmente de maneira rotineira. Mesmo com tantas receitas possíveis, inovar todos os dias não é tarefa fácil, mais difícil ainda para quem nem sabe cozinhar. Somado a isso, devemos sempre nos atentar à dispensa para que nenhum alimento passe da data de validade. Por isso, com esse sistema visamos facilitar a vida dos cozinheiros e cozinheiras levantando os itens presentes na dispensa do usuário de modo a fornecer as receitas que melhor combinam com aqueles alimentos.
@@ -10,16 +10,17 @@ Com isso, iremos aproveitar ao máximo o estoque de alimentos já existente, evi
 ## Pré requisitos
 
 <div style = "display : flex">
-    <li>Teste</li>
+    <li>Virtualenv - v20.0.31</li>
+    <li>Django - v3.1.7</li>
+    <li>psycopg2 - v2.8.6</li>
+    <li>Postgresql - v13.2</li>
 </div>
 <br>
 <hr>
 
-## Instalar
-
-Para modificar o projeto utilize o Unity 3D versão 2020.3.1f1, que pode ser encontrado no [Unity hub](https://store.unity.com/pt/download)
-
 ## Configurando o ambiente
+
+Para executar o sistema em sua máquina local você devera realizar os seguintes procedimentos:
 
 Clone o repositório e execute os comandos
 
