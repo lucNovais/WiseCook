@@ -1,16 +1,9 @@
 {% load static %}
 
 <nav>
-  <div class="btn-navbar">
-    <form action="{% url 'feed' %}" method="GET">
-      <button>
-        <img src="{% static 'img/wiseLogo_small.png' %}" alt="Logo" />
-      </button>
-    </form>
-  </div>
-  <link rel="stylesheet" href="{% static 'styles.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
 
-  <div class="btn-group">
+  <div class="btn-navbar">
     <form action="{% url 'list' %}" method="GET">
       <button>LISTA DE ALIMENTOS</button>
     </form>
@@ -27,4 +20,5 @@
       <button>LOGOUT</button>
     </form>
   </div>
+  <br><br><br>
 </nav>

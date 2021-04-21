@@ -40,9 +40,76 @@ body {
 	height: 60px;
 }
 
-.btn-navbar button{
+.btn-logo button {
 	border: none;
 	background-color: white;
+
+	left: 40%;
+	position: absolute;
+	top: 20px;
+}
+
+.alignRegister {
+	position: absolute;
+	top: 220px;
+	left: 29%;
+	font-size: 22px;
+	line-height: 26px;
+
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+	width: 580px;
+	height: 480px;
+
+	background: #FFDAA2;
+}
+
+.alignLogin {
+	position: absolute;
+	top: 280px;
+	left: 28%;
+	font-size: 22px;
+	line-height: 26px;
+
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+	width: 580px;
+	height: 300px;
+
+	background: #FFDAA2;
+}
+
+.btn-navbar button {
+	position: relative;
+	background-color: #FF8A00; /* Green background */
+	border-style: solid;
+	border-color: white;
+	border-radius: 15%;
+	color: white; /* White text */
+	padding: 10px 24px; /* Some padding */
+	cursor: pointer; /* Pointer/hand icon */
+	float: left; /* Float the buttons side by side */
+
+	text-align: center;
+	font-size: 22px;
+	line-height: 26px;
+	width: 220px;
+	height: 55px;
+
+	left: 17%;
+	top: 100px;
+
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.btn-navbar button:hover {
+	background-color: yellow;
 }
 
 /* Clear floats (clearfix hack) */
@@ -65,7 +132,7 @@ body {
 	background: yellow;
 }
 
-.btn-navbar button:hover {
+.btn-logo button:hover {
 	background: rgb(240, 241, 236);
 }
 
@@ -239,8 +306,8 @@ body {
 	position: absolute;
 	width: 457px;
 	height: 70px;
-	left: 417px;
-	top: 17px;
+	left: 34%;
+	top: 100px;
 
 	text-align: center;
 	font-size: 40px;
@@ -257,3 +324,221 @@ body {
 	color: black;
 	background: #FFDAA2;
 }
+
+.loginText { 
+	position: absolute;
+	width: 457px;
+	height: 70px;
+	left: 447px;
+	top: 170px;
+
+	text-align: center;
+	font-size: 40px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 26px;
+
+	color: black;
+	background: #FFDAA2;
+}
+
+.profileText {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	left: 43%;
+	top: 26%;
+
+	font-family: Roboto;
+	font-size: 40px;
+	font-style: bold;
+	text-align: center;
+
+	color: black;
+	background-color: #FFDAA2;
+}
+
+.profileDesc {
+	position: absolute;
+	font-size: 26px;
+	top: 36%;
+	left: 40%;
+}
+
+.userText {
+	position: relative;
+	width: 175px;
+	height: 26px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 56px;
+
+	color: #000000;
+}
+
+.userText2 {
+	position: absolute;
+	width: 175px;
+	height: 26px;
+	left: 10%;
+	top: 10px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 46px;
+
+	color: #000000;
+}
+
+.passwordText {
+	position: relative;
+	width: 175px;
+	height: 26px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 56px;
+
+	color: #000000;
+}
+
+.passwordText2 {
+	position: absolute;
+	width: 175px;
+	height: 26px;
+	top: 110px;
+	left: 10%;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 46px;
+
+	color: #000000;
+}
+
+.passwordText3 {
+	position: absolute;
+	width: 375px;
+	height: 26px;
+	top: 210px;
+	left: 10%;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 46px;
+
+	color: #000000;
+}
+
+.boxLogin {
+	width: 805px;
+	height: 400px;
+
+	background: #FFDAA2;
+}
+
+.entrar input{
+	position: absolute;
+	border: none;
+	width: 180px;
+	height: 60px;
+	left: 200px;
+	top: 210px;
+
+	font-size: 32px;
+
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+	background: #FF8A00;
+}
+
+.entrar input:hover{
+	background-color: yellow;
+}
+
+.registrar input{
+	position: absolute;
+	border: none;
+	width: 180px;
+	height: 60px;
+	left: 200px;
+	top: 340px;
+
+	font-size: 30px;
+
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+	background: #FF8A00;
+}
+
+.registrar input:hover{
+	background-color: yellow;
+}
+
+.loginReminder {
+	position: absolute;
+	font-size: 26px;
+	top: -35px;
+}
+
+.possuiContaReminder {
+	position: absolute;
+	font-size: 26px;
+	top: 410px;	
+}
+
+.editButton button{
+	position: absolute;
+	left: 41.5%;
+	top: 65%;
+
+	background-color: #FF8A00; /* Green background */
+	border: none;
+	color: black; /* White text */
+	padding: 10px 24px; /* Some padding */
+	cursor: pointer; /* Pointer/hand icon */
+	float: left; /* Float the buttons side by side */
+
+	font-family: Roboto;
+	text-align: center;
+	font-size: 30px;
+	line-height: 26px;
+	width: 240px;
+	height: 60px;
+}
+
+.editButton button:hover {
+	background-color: yellow;
+}
+
+th {
+	text-align: center;
+}
+
+td {
+	text-align: center;
+}
+

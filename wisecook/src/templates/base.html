@@ -7,6 +7,16 @@
     <title>wiseCook: Economize tempo e dinheiro!</title>
   </head>
   <body>
-    {% include 'navbar.html' %} {% block content %} Replace me {% endblock %}
+    <div class="btn-logo">
+      <form action="{% url 'feed' %}" method="GET">
+        <button>
+          <img src="{% static 'img/wiseLogo_small.png' %}" alt="Logo" />
+        </button>
+      </form>
+    </div>
+    {% include 'navbar.html' %}
+    {% block content %} 
+      Replace me 
+    {% endblock %}
   </body>
 </html>

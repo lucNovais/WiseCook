@@ -1,11 +1,28 @@
-{% extends 'base.html' %} {% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'css/styles_receitas.css' %}">
+  <title>wiseCook: Economize tempo e dinheiro!</title>
+</head>
+<body>
+  {% include 'navbar.html' %}
+  <div class="btn-logo">
+    <form action="{% url 'feed' %}" method="GET">
+      <button>
+        <img src="{% static 'img/wiseLogo_small.png' %}" alt="Logo" />
+      </button>
+    </form>
+  </div>
 
-<h1>MELHORES RECEITAS</h1>
-
-{% for item in recomendadas %}
-
-<form action="/recipes/{{item.nomereceita}}" method="GET">
-  <button>{{ item.nomereceita_id }} - {{ item.correspondencia }}</button>
-</form>
-
-{% endfor %} {%endblock content%}
+  <div class="feedTitle">MELHORES RECEITAS</div>
+  
+  {% for item in recomendadas %}
+  <form action="/recipes/{{item.nomereceita}}" method="GET">
+    <div class="feedBack"><div class="feedButtonAlign"><button>{{ item.nomereceita_id }} - {{ item.correspondencia }}</button></div></div>
+    <div class="defaultImage"><img src="{% static 'img/defaultImg.png' %}" alt="Logo" /></div>
+  </form>
+  {% endfor %}
+</body>
+</html>

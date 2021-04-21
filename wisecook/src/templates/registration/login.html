@@ -1,24 +1,28 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %} 
+{% block content %}
 
-<h1>LOGIN</h1>
+<div class="loginText">LOGIN</div>
 
-   {% if form.erros %}
+<div class="alignLogin">
+    {% if form.erros %}
     <p>There's something wrong with what you entered</p>
     {% endif %}
 
     {% if next %}
-    <p>Faça seu login para ter acesso!</p>
+    <div class="loginReminder">Faça seu login para ter acesso!</div>
     {% endif %}
+
 
     <form method='POST' action={% url 'login' %}>
         {% csrf_token %}
 
-        <p>Username: {{ form.username }}</p>
-        <p>Password: {{ form.password }}</p>
+        <div class="userText">USUÁRIO:</div> <br> {{ form.username }}
+        <div class="passwordText">SENHA:</div> <br> {{ form.password }}</p>
         
-        <p><input type='submit' value = 'LOGIN'></p>
+        <div class="entrar"><input type='submit' value = 'ENTRAR'><br><br><br></div>
         <p><input type='hidden' name='next' value='{{ next }}'></p>
         
     </form>
+</div>
 
 {%endblock content%}

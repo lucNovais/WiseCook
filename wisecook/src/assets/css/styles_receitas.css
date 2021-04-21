@@ -1,0 +1,65 @@
+.feedTitle {
+	position: absolute;
+	width: 460px;
+	height: 70px;
+	left: 34%;
+	top: 170px;
+
+	text-align: center;
+	font-size: 40px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 26px;
+
+	color: black;
+	background: #FFDAA2;
+}
+
+.defaultImage {
+    position: relative;
+    left: 44%;
+}
+
+.btn-logo button {
+	border: none;
+	background-color: white;
+
+	left: 40%;
+	position: absolute;
+	top: 20px;
+}
+
+.btn-logo button:hover {
+	background: rgb(240, 241, 236);
+}
+
+.feedBack {
+    position: relative;
+    background-color: #FFDAA2;
+    border: black;
+    border-style: solid;
+    width: 400px;
+    height: 300px;
+    left: 37%;
+	top: 210px;
+
+    align-items: top;
+	justify-content: center;
+	display: flex;
+}
+
+.feedButtonAlign button {
+    position: relative;
+    background-color: #FF8A00;
+    border: black;
+    border-style: solid;
+    top: 10px;
+    width: 200px;
+    height: 40px;
+}
