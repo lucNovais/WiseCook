@@ -7,6 +7,8 @@ Com isso, iremos aproveitar ao máximo o estoque de alimentos já existente, evi
 
 </p>
 
+<hr>
+
 ## Pré requisitos
 
 <div style = "display : flex">
@@ -15,17 +17,30 @@ Com isso, iremos aproveitar ao máximo o estoque de alimentos já existente, evi
     <li>psycopg2 - v2.8.6</li>
     <li>Postgresql - v13.2</li>
 </div>
-<br>
+
 <hr>
-
-## Protótipo FIGMA
-
-- [wiseCook](https://www.figma.com/proto/mP2lJa3OV0tvNwL0kH7d1v/wiseCook?node-id=1%3A2&scaling=min-zoom)
 
 ## Website
 
-- [wiseCook](https://wisecook.herokuapp.com)
+- [Heroku](https://wisecook.herokuapp.com)
 
+<hr>
+
+## Protótipo
+
+- [Figma](https://www.figma.com/proto/mP2lJa3OV0tvNwL0kH7d1v/wiseCook?node-id=1%3A2&scaling=min-zoom)
+
+<hr>
+
+## Video de apresentação
+
+- [Youtube](https://youtu.be/VQ-5JoebhvA)
+
+<hr>
+
+## Documentação
+
+- [Drive](https://docs.google.com/document/d/1ABUyAKfM22tallOTGZvR-usbKfg3AlK77k8C5qaKSPY/edit?usp=sharing)
 
 <hr>
 
@@ -33,3 +48,5 @@ Com isso, iremos aproveitar ao máximo o estoque de alimentos já existente, evi
 
 - [Lucas Novais](https://www.instagram.com/l.novais_s/)
 - [Thiago Figueiredo](https://github.com/thiagosfig)
+
+<hr>
