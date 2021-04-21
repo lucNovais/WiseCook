@@ -18,19 +18,10 @@ Com isso, iremos aproveitar ao máximo o estoque de alimentos já existente, evi
 <br>
 <hr>
 
-## Configurando o ambiente
+## Protótipo FIGMA
 
-Para executar o sistema em sua máquina local você devera realizar os seguintes procedimentos:
+- [wiseCook](https://www.figma.com/proto/mP2lJa3OV0tvNwL0kH7d1v/wiseCook?node-id=1%3A2&scaling=min-zoom)
 
-Clone o repositório e execute os comandos
-
-```bash
-git fetch origin develop:develop
-```
-
-```bash
-git checkout develop
-```
 <hr>
 
 ## Desenvolvedores
